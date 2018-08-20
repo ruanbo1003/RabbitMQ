@@ -1,0 +1,37 @@
+# IDE
+.idea
+
+# docker
+docker-compose.yml
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache
+
+# mypy
+.mypy_cache/
+
+# django
+*.log
+.media/
+local_settings.py
+*.sqlite3
+
+# pyenv
+.python-version
+
+venv/
+.env
